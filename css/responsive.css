@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 576px) {
     .container {
-        max-width: 500px;
+        max-width: 100%;
     }
 
     .row {
@@ -26,5 +26,15 @@
 
     .row .col {
         width: 70%;
+    }
+
+    .why-us {
+        padding-top: 50px;
+        margin: 0;
+        background-color: #222222;
+    }
+
+    .steps {
+        margin: 0;
     }
 }
