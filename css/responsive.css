@@ -1,7 +1,13 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .container {
-        max-width: 700px;
+        max-width: 100%;
     }
 }
 
@@ -22,6 +28,10 @@
 
     .col:first-child {
         margin-bottom: 80px;
+    }
+
+    .col:last-child {
+        margin-top: 50px;
     }
 
     .row .col {
